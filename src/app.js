@@ -14,8 +14,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // cookie and sessions
 app.use(cookieParser());
-app.use(session({secret: "Shh, its a secret!"}));
-
 
 
 const globalErrHandler = (err,request: $Request,response: $Response, next: NextFunction) => {
