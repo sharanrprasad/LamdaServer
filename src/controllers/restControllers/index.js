@@ -7,7 +7,6 @@ import lamdaRun from './lamdaRun';
 
 const router = express.Router();
 
-//router.use(utils.accessControl);
 
 //bodyparser
 router.use(bodyParser.json());
