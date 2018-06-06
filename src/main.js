@@ -10,6 +10,7 @@ import * as utils from './utils';
 const port: string = process.env.PORT || '3000';
 
 app.use(utils.accessControl);
+app.disable('view cache');
 app.use("/rest-api",restControllers);
 app.use("/api", apiControllers);
 
