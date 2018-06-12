@@ -66,7 +66,7 @@ function getObservable(api, maxPrime, numLoops) {
   return Rx.Observable.fromPromise(
     fetch(getUrlQueryParameters(apis[api], maxPrime, numLoops),{
       headers : {
-        "x-api-key": 'yruBDqvlA54Lq0xQefXWJ4kGWo0lekC35jPOUOMy'
+        "x-api-key": '5y4pd4Nwuv2AHe7FfWONJ4RwkT98Vuc53HINwKdX'
       }
     })
   )
